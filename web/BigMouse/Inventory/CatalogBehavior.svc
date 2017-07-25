@@ -1,1 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="Epic.Training.Example.Web.Pages.Inventory.CatalogBehavior" CodeBehind="CatalogBehavior.svc.cs" %>
