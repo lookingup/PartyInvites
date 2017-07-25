@@ -1,0 +1,41 @@
+﻿#tblControls td
+{
+    margin-bottom:6px;
+    vertical-align:top;
+}
+
+[type="text"]
+{
+    background-color: Gray;
+}
+
+#tdButtons > input
+{
+    width: 70px;
+    margin-left: 3px;
+}
+
+.editable
+{
+    background-color:White;
+}
+
+.detailsLabel
+{
+    width: 70px;
+}
+
+.detailsField
+{
+    width:150px;
+}
+
+.description
+{
+    width:225px;
+}
+
+.imageColumn
+{
+    width: 400px;
+}

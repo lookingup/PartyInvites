@@ -1,0 +1,155 @@
+﻿body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #484744;
+}
+
+h1 {
+	font-size: 150%;
+	color: #4083FF;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 130%;
+	color: #4083FF;
+	margin-top: 15px;
+}
+
+h3 {
+	font-size: 110%;
+	margin-top: 10px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#divBgL1 {
+	background-image: url(images/BGLayer1.png);
+	background-repeat: repeat-y;
+	background-position: center;
+	min-width: 800px;
+}
+
+#divBgL2 {
+	background-image: url(images/BGLayer2.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#divBgL3 {
+	background-image: url(images/BGLayer3.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#divBgL3 > div {
+	margin: 0 auto;
+}
+
+#divHeader {
+	padding-top: 78px;
+	width: 694px;
+}
+
+#divMenu {
+	float: left;
+	width: 100px;
+	font-size: 85%;
+}
+
+#divMenu li {
+	/*display: inline;*/
+	list-style-position: outside;
+	list-style-type: square;
+}
+
+#divContent {
+	min-height: 200px;
+	margin-left: 100px;
+}
+
+#divGroupMenuContent {
+	width: 620px;
+}
+
+#divFooter {
+	padding-bottom: 30px;
+	text-align: center;
+	clear: both;
+}
+
+.innerContent {
+	width: 620px;
+}
+
+a:link, a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+	text-decoration: underline;
+	background-color: yellow;
+}
+
+.tblData {
+	border: 2px solid black;
+	margin: 5px 0;
+	border-spacing: 3px;
+	border-collapse: collapse;
+}
+
+.tblData td, .tblData th {
+	border: 1px dotted black;
+	padding: 2px;
+}
+
+.tblData th {
+	color: white;
+	background-color: black;
+}
+
+/* Left side of layout table */
+.tblLayout td:nth-of-type(2n+1) {
+	vertical-align: top;
+}
+
+/* Right side of layout table */
+.tblLayout td:nth-of-type(2n) {
+	padding-bottom: 6px;
+	padding-left: 6px;
+}
+
+select, input, textarea, button {
+	font-family: inherit;
+	font-size: inherit;
+	margin-right: 6px;
+}
+
+.loginTable td {
+	text-align: left;
+	padding: 3px;
+}
+
+.loginTitle {
+	text-align: left;
+	font-size: 130%;
+}
+
+.hidden {
+	display: none;
+}
+
+.error {
+	background-color: #FFEEEE;
+	color: red;
+	border: 2px solid red;
+	padding: 5px;
+}
+
+li {
+	list-style-position: inside;
+}
