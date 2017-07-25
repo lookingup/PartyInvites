@@ -1,0 +1,5 @@
+﻿
+#rsvpform label { width: 140px; display: inline-block; }
+#rsvpform input { margin: 2px; margin-left: 4px; width: 150px; }
+#rsvpform select { margin: 2px 0px; width: 154px; }
+button[type=submit] { margin-top: 5px; }
